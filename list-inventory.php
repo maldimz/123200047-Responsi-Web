@@ -32,7 +32,7 @@
                     <div class="dropdown-content">
                         <a href="list-inventory.php?tag=Building">Building</a>
                         <a href="list-inventory.php?tag=Vehicles">Vehicles</a>
-                        <a href="list-inventory.php?tag=Office Inventory">Office Inventory</a>
+                        <a href="list-inventory.php?tag=Office stationery">Office Inventory</a>
                         <a href="list-inventory.php?tag=Electronic">Electronic</a>
                     </div>
                 </div>

@@ -39,10 +39,10 @@
                 <div class="dropdown">
                     <a href="">List Per Category</a>
                     <div class="dropdown-content">
-                        <a href="list-inventory.php?tag=building">Building</a>
-                        <a href="list-inventory.php?tag=vehicles">Vehicles</a>
-                        <a href="list-inventory.php?tag=office">Office Inventory</a>
-                        <a href="list-inventory.php?tag=electronic">Electronic</a>
+                        <a href="list-inventory.php?tag=Building">Building</a>
+                        <a href="list-inventory.php?tag=Vehicles">Vehicles</a>
+                        <a href="list-inventory.php?tag=Office stationery">Office Inventory</a>
+                        <a href="list-inventory.php?tag=Electronic">Electronic</a>
                     </div>
                 </div>
             </li>

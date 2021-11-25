@@ -30,9 +30,9 @@
                 <div class="dropdown">
                     <a href="">List Per Category</a>
                     <div class="dropdown-content">
-                        <a href="list-inventory.php?tag=Building">Building</a>
+                    <a href="list-inventory.php?tag=Building">Building</a>
                         <a href="list-inventory.php?tag=Vehicles">Vehicles</a>
-                        <a href="list-inventory.php?tag=Office Inventory">Office Inventory</a>
+                        <a href="list-inventory.php?tag=Office stationery">Office Inventory</a>
                         <a href="list-inventory.php?tag=Electronic">Electronic</a>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                     <select name="category" style="width:50%;">
                         <option value="Building">Building</option>
                         <option value="Vehicles">Vehicles</option>
-                        <option value="Office Inventory">Office Inventory</option>
+                        <option value="Office stationery">Office stationery</option>
                         <option value="Electronic">Electronic</option>
                     </select>
                 </div>
