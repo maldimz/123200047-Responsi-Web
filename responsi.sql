@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 25, 2021 at 12:35 PM
+-- Generation Time: Nov 25, 2021 at 06:47 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -18,12 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `responsi`
-
-CREATE DATABASE responsi;
+-- 
 --
 
--- --------------------------------------------------------
+-- CREATE DATABASE responsi;
 
 --
 -- Table structure for table `inventory`
@@ -45,10 +43,13 @@ CREATE TABLE `inventory` (
 --
 
 INSERT INTO `inventory` (`item_id`, `item_name`, `amount`, `unit`, `arrival_date`, `category`, `item_status`, `price`) VALUES
-('001', 'CRV', 2, 'Units', '2021-12-10', 'Vehicles', 'Damaged', 100000000),
-('002', 'PC', 10, 'Units', '2021-11-27', 'Office Inventory', 'Well', 6000000),
-('003TRX', 'TronX Tower', 1000, 'm2', '2021-11-27', 'Building', 'Maintenance', 2000000),
-('KalkunManj', 'Kalkun 3 Pro', 4, 'Units', '2021-11-24', 'Electronic', 'Damaged', 1000000);
+('AC4370', 'Acer Laptop 4370Z', 10, 'fruit', '2015-02-07', 'Electronic', 'Damaged', 6750000),
+('CMPi5', 'HP Core i5 . computer', 25, 'units', '2016-05-04', 'Electronic', 'Well', 12750000),
+('HND01', 'Honda CR-V 2016', 3, 'units', '2016-04-01', 'Vehicles', 'Well', 570000000),
+('KUR', 'Chair', 200, 'units', '2016-03-11', 'Office Inventory', 'Well', 75000),
+('MJ01', '2x1 Office Desk', 50, 'units', '2015-12-11', 'Office Inventory', 'Well', 250000),
+('TNH01', 'Main Building Land', 350, 'm²', '2015-11-05', 'Building', 'Well', 2750000),
+('TYT01', '2015 Toyota Camry', 5, 'units', '2015-10-10', 'Vehicles', 'Well', 345000000);
 
 -- --------------------------------------------------------
 

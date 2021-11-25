@@ -101,7 +101,7 @@
                 </div>
                     
                 <div class="col-9">
-                    <input type="text" name="amount" placeholder="Amount" value="<?php echo $amount?>">
+                    <input type="number" min="0" name="amount" placeholder="Amount" value="<?php echo $amount?>">
                 </div>
             </div>
 
@@ -217,7 +217,7 @@
                 </div>
 
                 <div class="col-9">
-                    <input style="width:98%;" type="text" name="price" placeholder="Unit Price" value="<?php echo $price?>">
+                    <input style="width:98%;" type="number" name="price" placeholder="Unit Price" min="0" value="<?php echo $price?>">
                 </div>
             </div>
             
@@ -225,7 +225,7 @@
             <?php
             if(isset($_GET['message'])){
                 if($_GET['message']=="invalid"){
-                    echo "<p>Item code arelady used!</p>";
+                    echo "<p>Item code already used!</p>";
                 }else if($_GET['message']=="empty"){
                     echo "<p>Field cannot be empty!</p>";
                 }
@@ -235,7 +235,7 @@
             
             <div class="row btn-wrap" style="text-align: center;">
                 <input class="btn-form" type="submit" name="submit" value="Save">
-                <a class="btn-form" href="home.php">Cancel</a>
+                <a class="btn-form" href="list-inventory.php">Cancel</a>
             </div>
         </form>
     </div>

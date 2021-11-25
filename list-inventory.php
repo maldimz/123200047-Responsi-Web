@@ -49,7 +49,11 @@
     </div>
 
     <div class="content-container">
-        <a href="add-form.php"><button class="btn-add">+ Add</button></a>
+        <div class="row">
+            <div class="col-2">
+                <a href="add-form.php"><button class="btn-add">+ Add</button></a>
+            </div>
+        </div>
         <div class="row">
             <table>
                 <tr>

@@ -79,7 +79,7 @@
                 </div>
                     
                 <div class="col-9">
-                    <input type="text" name="amount" placeholder="Amount">
+                    <input type="number" name="amount" placeholder="Amount" min="0">
                 </div>
             </div>
 
@@ -136,7 +136,7 @@
                 </div>
 
                 <div class="col-9">
-                    <input style="width:98%;" type="text" name="price" placeholder="Unit Price">
+                    <input style="width:98%;" type="number" name="price" placeholder="Unit Price" min="0">
                 </div>
             </div>
             
@@ -144,7 +144,7 @@
             <?php
             if(isset($_GET['message'])){
                 if($_GET['message']=="invalid"){
-                    echo "<p>Item code arelady used!</p>";
+                    echo "<p>Item code already used!</p>";
                 }else if($_GET['message']=="empty"){
                     echo "<p>Field cannot be empty!</p>";
                 }

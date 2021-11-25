@@ -75,7 +75,7 @@
                 <?php
                 if(isset($_GET['message'])){
                     if($_GET['message']=="invalid"){
-                        echo "<p>Username arelady used!</p>";
+                        echo "<p>Username already used!</p>";
                     }else if($_GET['message']=="empty"){
                         echo "<p>Field cannot be empty!</p>";
                     }
