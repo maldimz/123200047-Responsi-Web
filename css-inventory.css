@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+}
+
+.btn-add{
+    width: 100px;
+    height: 50px;
+    background: #162033;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 15px 0 15px;
+}
+
+.btn-add:hover{
+    background: white;
+    color: #162033;
+}
+
+.content-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-container table th{
+    color: white;
+    background: #162033;
+}
+
+.content-container table{
+    margin-bottom: 10px;
+    border: 1px solid #162033;
+    text-align: center;
+}
+
+.btn-form{
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    color: white;
+    background: #162033;
+    border: none;
+}
+
+.btn-form:hover{
+    color: #162033;
+    background: white;
+}
